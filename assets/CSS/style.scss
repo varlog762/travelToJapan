@@ -86,7 +86,7 @@ img {
 
 .section-title {
     padding-bottom: 10px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 35px;
     line-height: 42px;
     color: #102746;
@@ -184,14 +184,14 @@ img {
                     border: none;     
                     border-bottom: 2px solid #bfc0c5;
                     margin-right: 60px;
-                    font-weight: 500;
+                    font-weight: 700;
                     font-size: 18px;
                     // line-height: 0;
                     color: #fff;
                 }
 
                 .search-form__field::placeholder {
-                    font-weight: 500;
+                    font-weight: 700;
                     font-size: 18px;
                     // line-height: 1;
                     color: #fff;
@@ -200,7 +200,7 @@ img {
                 .search-form__submit {
                     padding: 15px 39px;
                     text-transform: uppercase;
-                    font-weight: 500;
+                    font-weight: 700;
                     font-size: 24px;
                     color: #fff;
                     background: #1b7dff;
@@ -237,8 +237,7 @@ img {
                 padding-top: 93px;
                 padding-left: 99px;
                 padding-bottom: 88px;
-                font-style: normal;
-                font-weight: 500;
+                font-weight: 700;
                 font-size: 35px;
                 line-height: 42px;
                 color: #102746;
@@ -367,6 +366,38 @@ img {
             .places__card_md {
                 // height: 283px;
                 grid-column: span 2;
+            }
+        }
+    }
+
+    .tours {
+        margin-bottom: 139px;
+
+        .tours__tour {
+            margin-bottom: 77px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 0 61px;
+            align-items: center;
+
+            .tour__info {
+                padding-left: 47px;
+
+                .tour__title {
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 40px;
+                    color: #102746;
+                    padding-bottom: 85px;
+                }
+
+                .tour__descr {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #102746;
+                    padding-bottom: 58px;
+                }
             }
         }
     }
