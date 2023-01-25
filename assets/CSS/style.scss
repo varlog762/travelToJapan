@@ -110,6 +110,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    transition: all .2s;
 
     .header__wrapper {
         padding-top: 56px;
@@ -145,6 +146,13 @@ img {
             }
         }
     }
+}
+
+.header_active {
+    padding-bottom: 30px;
+    background-color: #0E1D28;
+    // opacity: 65%;
+    z-index: 99;
 }
 
 .main {
