@@ -9,3 +9,19 @@
         };
     }
 }());
+
+(function () {
+    const burgerItem = document.querySelector('.burger'),
+        menu = document.querySelector('.header___nav'),
+        closeBtn = document.querySelector('.header__nav-close');
+
+    burgerItem.addEventListener('click', () => {
+        menu.classList.add('header___nav_active');
+    });
+
+    closeBtn.addEventListener('click', () => {
+        menu.classList.remove('header___nav_active');
+    })
+
+
+}());
